@@ -9,7 +9,7 @@ int main(void)
 {
 	int a = 0;
 
-	while (a < 1666666)
+	while (a < 16)
 	{
 		printf("%x", a);
 		a++;
