@@ -19,9 +19,9 @@ void print_binary(unsigned long int n)
 			_putchar('1');
 			total++;
 		}
-		else if (total != NULL)
+		else if (total != 0)
 			_putchar('0');
 	}
-	if (total == NULL)
+	if (total == 0)
 		_putchar('0');
 }
