@@ -19,8 +19,8 @@ char *allocateBuffer(char *targetFile)
 	if (buffer == NULL)
 	{
 		dprintf(STDERR_FILENO,
-				"Error: Can't allocate
-				memory for %s\n", targetFile);
+				"Error: Can't allocate"
+				"memory for %s\n", targetFile);
 		exit(99);
 	}
 	return (buffer);
@@ -39,8 +39,8 @@ void closeFile(int fileDescriptor)
 
 	if (result == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close
-				file descriptor %d\n", fileDescriptor);
+		dprintf(STDERR_FILENO, "Error: Can't close"
+				"file descriptor %d\n", fileDescriptor);
 		exit(100);
 	}
 }
